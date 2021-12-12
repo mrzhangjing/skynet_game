@@ -1,0 +1,1749 @@
+27/11/21 16:33:38.52 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:33:38.53 [:01000003] LAUNCH snlua launcher
+27/11/21 16:33:38.53 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:33:38.53 [:01000004] master listen socket 0.0.0.0:10000
+27/11/21 16:33:38.53 [:01000005] LAUNCH snlua cslave
+27/11/21 16:33:38.53 [:01000005] slave connect to master 127.0.0.1:10000
+27/11/21 16:33:38.53 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:33:38.53 [:01000004] connect from 127.0.0.1:65124 4
+27/11/21 16:33:38.53 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10001
+27/11/21 16:33:38.53 [:01000005] Waiting for 0 harbors
+27/11/21 16:33:38.53 [:01000005] Shakehand ready
+27/11/21 16:33:38.53 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:33:38.53 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:33:38.53 [:01000009] LAUNCH snlua main
+27/11/21 16:33:38.53 [:01000009] lua loader error : ../lualib/loader.lua:24: cannot open ../service/main.lua: No such file or directory
+stack traceback:
+	[C]: in function 'error'
+	../lualib/loader.lua:24: in main chunk
+27/11/21 16:33:38.53 [:01000009] KILL self
+27/11/21 16:33:38.54 [:01000002] KILL self
+27/11/21 16:34:06.44 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:34:06.45 [:01000003] LAUNCH snlua launcher
+27/11/21 16:34:06.45 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:34:06.45 [:01000004] master listen socket 0.0.0.0:10000
+27/11/21 16:34:06.45 [:01000005] LAUNCH snlua cslave
+27/11/21 16:34:06.45 [:01000005] slave connect to master 127.0.0.1:10000
+27/11/21 16:34:06.45 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:34:06.45 [:01000004] connect from 127.0.0.1:65134 4
+27/11/21 16:34:06.45 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10001
+27/11/21 16:34:06.45 [:01000005] Waiting for 0 harbors
+27/11/21 16:34:06.45 [:01000005] Shakehand ready
+27/11/21 16:34:06.45 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:34:06.45 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:34:06.45 [:01000009] LAUNCH snlua main
+27/11/21 16:34:06.45 [:01000009] lua loader error : ../lualib/loader.lua:24: cannot open ../service/main.lua: No such file or directory
+stack traceback:
+	[C]: in function 'error'
+	../lualib/loader.lua:24: in main chunk
+27/11/21 16:34:06.45 [:01000009] KILL self
+27/11/21 16:34:06.45 [:01000002] KILL self
+27/11/21 16:34:51.38 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:34:51.38 [:01000003] LAUNCH snlua launcher
+27/11/21 16:34:51.38 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:34:51.38 [:01000004] master listen socket 0.0.0.0:10000
+27/11/21 16:34:51.38 [:01000004] init service failed: ../lualib/skynet/socket.lua:407: Listen error
+stack traceback:
+	[C]: in function 'skynet.socketdriver.listen'
+	../lualib/skynet/socket.lua:407: in function 'skynet.socket.listen'
+	../service/cmaster.lua:113: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+27/11/21 16:34:51.38 [:01000004] KILL self
+27/11/21 16:35:03.68 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:35:03.68 [:01000003] LAUNCH snlua launcher
+27/11/21 16:35:03.68 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:35:03.68 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:35:03.68 [:01000005] LAUNCH snlua cslave
+27/11/21 16:35:03.68 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:35:03.68 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:35:03.68 [:01000004] connect from 127.0.0.1:65153 4
+27/11/21 16:35:03.68 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:35:03.68 [:01000005] Waiting for 0 harbors
+27/11/21 16:35:03.68 [:01000005] Shakehand ready
+27/11/21 16:35:03.68 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:35:03.68 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:35:03.69 [:01000009] LAUNCH snlua main
+27/11/21 16:35:03.69 [:01000009] lua loader error : ../lualib/loader.lua:24: cannot open ../service/main.lua: No such file or directory
+stack traceback:
+	[C]: in function 'error'
+	../lualib/loader.lua:24: in main chunk
+27/11/21 16:35:03.69 [:01000009] KILL self
+27/11/21 16:35:03.69 [:01000002] KILL self
+27/11/21 16:36:50.15 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:36:50.15 [:01000003] LAUNCH snlua launcher
+27/11/21 16:36:50.15 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:36:50.15 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:36:50.15 [:01000005] LAUNCH snlua cslave
+27/11/21 16:36:50.15 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:36:50.16 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:36:50.16 [:01000004] connect from 127.0.0.1:65223 4
+27/11/21 16:36:50.16 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:36:50.16 [:01000005] Waiting for 0 harbors
+27/11/21 16:36:50.16 [:01000005] Shakehand ready
+27/11/21 16:36:50.16 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:36:50.16 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:36:50.16 [:01000009] LAUNCH snlua main
+27/11/21 16:36:50.17 [:01000009] Server start
+27/11/21 16:36:50.17 [:0100000a] LAUNCH snlua protoloader
+27/11/21 16:36:50.17 [:0100000a] lua loader error : ../lualib/loader.lua:24: cannot open ../service/protoloader.lua: No such file or directory
+stack traceback:
+	[C]: in function 'error'
+	../lualib/loader.lua:24: in main chunk
+27/11/21 16:36:50.17 [:0100000a] KILL self
+27/11/21 16:36:50.17 [:01000009] init service failed: ../lualib/skynet.lua:869: ../service/service_mgr.lua:25: ../lualib/skynet.lua:590: call failed
+stack traceback:
+	[C]: in function 'assert'
+	../lualib/skynet.lua:869: in function 'skynet.uniqueservice'
+	../service/main.lua:9: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+27/11/21 16:36:50.17 [:01000009] KILL self
+27/11/21 16:36:50.17 [:01000002] KILL self
+27/11/21 16:37:15.40 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:37:15.40 [:01000003] LAUNCH snlua launcher
+27/11/21 16:37:15.40 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:37:15.40 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:37:15.40 [:01000005] LAUNCH snlua cslave
+27/11/21 16:37:15.40 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:37:15.40 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:37:15.40 [:01000004] connect from 127.0.0.1:65246 4
+27/11/21 16:37:15.40 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:37:15.40 [:01000005] Waiting for 0 harbors
+27/11/21 16:37:15.40 [:01000005] Shakehand ready
+27/11/21 16:37:15.40 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:37:15.40 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:37:15.41 [:01000009] LAUNCH snlua main
+27/11/21 16:37:15.41 [:01000009] Server start
+27/11/21 16:37:15.41 [:0100000a] LAUNCH snlua protoloader
+27/11/21 16:37:15.41 [:0100000a] lua loader error : ../lualib/loader.lua:24: cannot open ../service/protoloader.lua: No such file or directory
+stack traceback:
+	[C]: in function 'error'
+	../lualib/loader.lua:24: in main chunk
+27/11/21 16:37:15.41 [:0100000a] KILL self
+27/11/21 16:37:15.41 [:01000009] init service failed: ../lualib/skynet.lua:869: ../service/service_mgr.lua:25: ../lualib/skynet.lua:590: call failed
+stack traceback:
+	[C]: in function 'assert'
+	../lualib/skynet.lua:869: in function 'skynet.uniqueservice'
+	../service/main.lua:9: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+27/11/21 16:37:15.41 [:01000009] KILL self
+27/11/21 16:37:15.41 [:01000002] KILL self
+27/11/21 16:37:24.17 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:37:24.18 [:01000003] LAUNCH snlua launcher
+27/11/21 16:37:24.18 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:37:24.18 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:37:24.18 [:01000005] LAUNCH snlua cslave
+27/11/21 16:37:24.18 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:37:24.18 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:37:24.18 [:01000004] connect from 127.0.0.1:65259 4
+27/11/21 16:37:24.18 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:37:24.18 [:01000005] Waiting for 0 harbors
+27/11/21 16:37:24.18 [:01000005] Shakehand ready
+27/11/21 16:37:24.18 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:37:24.18 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:37:24.18 [:01000009] LAUNCH snlua main
+27/11/21 16:37:24.18 [:01000009] Server start
+27/11/21 16:37:24.18 [:0100000a] LAUNCH snlua protoloader
+27/11/21 16:37:24.18 [:0100000a] lua loader error : ../lualib/loader.lua:24: cannot open ../service/protoloader.lua: No such file or directory
+stack traceback:
+	[C]: in function 'error'
+	../lualib/loader.lua:24: in main chunk
+27/11/21 16:37:24.18 [:0100000a] KILL self
+27/11/21 16:37:24.18 [:01000009] init service failed: ../lualib/skynet.lua:869: ../service/service_mgr.lua:25: ../lualib/skynet.lua:590: call failed
+stack traceback:
+	[C]: in function 'assert'
+	../lualib/skynet.lua:869: in function 'skynet.uniqueservice'
+	../service/main.lua:9: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+27/11/21 16:37:24.18 [:01000009] KILL self
+27/11/21 16:37:24.18 [:01000002] KILL self
+27/11/21 16:37:56.22 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:37:56.23 [:01000003] LAUNCH snlua launcher
+27/11/21 16:37:56.23 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:37:56.23 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:37:56.23 [:01000005] LAUNCH snlua cslave
+27/11/21 16:37:56.23 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:37:56.24 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:37:56.24 [:01000004] connect from 127.0.0.1:65273 4
+27/11/21 16:37:56.24 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:37:56.24 [:01000005] Waiting for 0 harbors
+27/11/21 16:37:56.24 [:01000005] Shakehand ready
+27/11/21 16:37:56.24 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:37:56.24 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:37:56.24 [:01000009] LAUNCH snlua main
+27/11/21 16:37:56.24 [:01000009] Server start
+27/11/21 16:37:56.24 [:01000009] Watchdog listen on 8888
+27/11/21 16:37:56.24 [:01000009] KILL self
+27/11/21 16:37:56.24 [:01000002] KILL self
+27/11/21 16:38:11.52 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:38:11.53 [:01000003] LAUNCH snlua launcher
+27/11/21 16:38:11.53 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:38:11.53 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:38:11.53 [:01000005] LAUNCH snlua cslave
+27/11/21 16:38:11.53 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:38:11.54 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:38:11.54 [:01000004] connect from 127.0.0.1:65281 4
+27/11/21 16:38:11.54 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:38:11.54 [:01000005] Waiting for 0 harbors
+27/11/21 16:38:11.54 [:01000005] Shakehand ready
+27/11/21 16:38:11.54 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:38:11.54 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:38:11.54 [:01000009] LAUNCH snlua main
+27/11/21 16:38:11.54 [:01000009] Server start
+27/11/21 16:38:11.54 [:01000009] Watchdog listen on 8888
+27/11/21 16:38:11.54 [:01000009] KILL self
+27/11/21 16:38:11.54 [:01000002] KILL self
+27/11/21 16:39:12.13 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:39:12.13 [:01000003] LAUNCH snlua launcher
+27/11/21 16:39:12.13 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:39:12.13 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:39:12.14 [:01000005] LAUNCH snlua cslave
+27/11/21 16:39:12.14 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:39:12.14 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:39:12.14 [:01000004] connect from 127.0.0.1:65384 4
+27/11/21 16:39:12.14 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:39:12.14 [:01000005] Waiting for 0 harbors
+27/11/21 16:39:12.14 [:01000005] Shakehand ready
+27/11/21 16:39:12.14 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:39:12.14 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:39:12.14 [:01000009] LAUNCH snlua main
+27/11/21 16:39:12.14 [:01000009] init service failed: ../service/main.lua:5: attempt to call a nil value (global 'printf')
+stack traceback:
+	../service/main.lua:5: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+27/11/21 16:39:12.14 [:01000009] KILL self
+27/11/21 16:39:12.14 [:01000002] KILL self
+27/11/21 16:39:20.14 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:39:20.15 [:01000003] LAUNCH snlua launcher
+27/11/21 16:39:20.15 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:39:20.15 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:39:20.15 [:01000005] LAUNCH snlua cslave
+27/11/21 16:39:20.15 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:39:20.15 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:39:20.15 [:01000004] connect from 127.0.0.1:65387 4
+27/11/21 16:39:20.15 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:39:20.15 [:01000005] Waiting for 0 harbors
+27/11/21 16:39:20.15 [:01000005] Shakehand ready
+27/11/21 16:39:20.15 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:39:20.15 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:39:20.15 [:01000009] LAUNCH snlua main
+27/11/21 16:39:20.15 [:01000009] Server start
+27/11/21 16:39:20.15 [:01000009] Watchdog listen on 8888
+27/11/21 16:39:20.15 [:01000009] KILL self
+27/11/21 16:39:20.15 [:01000002] KILL self
+27/11/21 16:39:33.19 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:39:33.19 [:01000003] LAUNCH snlua launcher
+27/11/21 16:39:33.19 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:39:33.19 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:39:33.19 [:01000005] LAUNCH snlua cslave
+27/11/21 16:39:33.19 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:39:33.19 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:39:33.19 [:01000004] connect from 127.0.0.1:65395 4
+27/11/21 16:39:33.19 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:39:33.19 [:01000005] Waiting for 0 harbors
+27/11/21 16:39:33.19 [:01000005] Shakehand ready
+27/11/21 16:39:33.19 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:39:33.20 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:39:33.20 [:01000009] LAUNCH snlua main
+27/11/21 16:39:33.20 [:01000009] Server start
+27/11/21 16:39:33.20 [:01000009] Watchdog listen on 8888
+27/11/21 16:39:33.20 [:01000009] KILL self
+27/11/21 16:39:33.20 [:01000002] KILL self
+27/11/21 16:40:36.53 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:40:36.54 [:01000003] LAUNCH snlua launcher
+27/11/21 16:40:36.54 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:40:36.54 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:40:36.54 [:01000005] LAUNCH snlua cslave
+27/11/21 16:40:36.54 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:40:36.54 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:40:36.54 [:01000004] connect from 127.0.0.1:65425 4
+27/11/21 16:40:36.54 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:40:36.54 [:01000005] Waiting for 0 harbors
+27/11/21 16:40:36.54 [:01000005] Shakehand ready
+27/11/21 16:40:36.54 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:40:36.55 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:40:36.55 [:01000009] LAUNCH snlua main
+27/11/21 16:40:36.55 [:01000009] Server start
+27/11/21 16:40:36.55 [:0100000a] LAUNCH snlua debug_console 10199
+27/11/21 16:40:36.55 [:0100000a] Start debug console at 127.0.0.1:10199
+27/11/21 16:40:36.55 [:01000009] Watchdog listen on 8888
+27/11/21 16:40:36.55 [:01000009] KILL self
+27/11/21 16:40:36.55 [:01000002] KILL self
+27/11/21 16:41:37.86 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:41:37.86 [:01000003] LAUNCH snlua launcher
+27/11/21 16:41:37.86 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:41:37.87 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:41:37.87 [:01000005] LAUNCH snlua cslave
+27/11/21 16:41:37.87 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:41:37.87 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:41:37.87 [:01000004] connect from 127.0.0.1:65442 4
+27/11/21 16:41:37.87 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:41:37.87 [:01000005] Waiting for 0 harbors
+27/11/21 16:41:37.87 [:01000005] Shakehand ready
+27/11/21 16:41:37.87 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:41:37.87 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:41:37.87 [:01000009] LAUNCH snlua main
+27/11/21 16:41:37.87 [:0100000a] LAUNCH snlua debug_console 10199
+27/11/21 16:41:37.87 [:0100000a] Start debug console at 127.0.0.1:10199
+27/11/21 16:41:37.87 [:01000009] Watchdog listen on 8888
+27/11/21 16:41:37.87 [:01000009] KILL self
+27/11/21 16:41:37.87 [:01000002] KILL self
+27/11/21 16:41:46.26 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:41:46.26 [:01000003] LAUNCH snlua launcher
+27/11/21 16:41:46.26 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:41:46.26 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:41:46.27 [:01000005] LAUNCH snlua cslave
+27/11/21 16:41:46.27 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:41:46.27 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:41:46.27 [:01000004] connect from 127.0.0.1:65447 4
+27/11/21 16:41:46.27 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:41:46.27 [:01000005] Waiting for 0 harbors
+27/11/21 16:41:46.27 [:01000005] Shakehand ready
+27/11/21 16:41:46.27 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:41:46.27 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:41:46.27 [:01000009] LAUNCH snlua main
+27/11/21 16:41:46.27 [:0100000a] LAUNCH snlua debug_console 10199
+27/11/21 16:41:46.27 [:0100000a] Start debug console at 127.0.0.1:10199
+27/11/21 16:41:46.27 [:01000009] Watchdog listen on 8888
+27/11/21 16:41:46.27 [:01000009] KILL self
+27/11/21 16:41:46.27 [:01000002] KILL self
+27/11/21 16:41:57.39 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:41:57.39 [:01000003] LAUNCH snlua launcher
+27/11/21 16:41:57.39 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:41:57.39 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:41:57.40 [:01000005] LAUNCH snlua cslave
+27/11/21 16:41:57.40 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:41:57.40 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:41:57.40 [:01000004] connect from 127.0.0.1:65450 4
+27/11/21 16:41:57.40 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:41:57.40 [:01000005] Waiting for 0 harbors
+27/11/21 16:41:57.40 [:01000005] Shakehand ready
+27/11/21 16:41:57.40 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:41:57.40 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:41:57.40 [:01000009] LAUNCH snlua main
+27/11/21 16:41:57.40 [:0100000a] LAUNCH snlua debug_console 10199
+27/11/21 16:41:57.40 [:0100000a] Start debug console at 127.0.0.1:10199
+27/11/21 16:41:57.40 [:01000009] Watchdog listen on 8888
+27/11/21 16:41:57.40 [:01000009] KILL self
+27/11/21 16:41:57.40 [:01000002] KILL self
+27/11/21 16:42:04.10 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:42:04.10 [:01000003] LAUNCH snlua launcher
+27/11/21 16:42:04.10 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:42:04.10 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:42:04.10 [:01000005] LAUNCH snlua cslave
+27/11/21 16:42:04.10 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:42:04.10 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:42:04.10 [:01000004] connect from 127.0.0.1:65463 4
+27/11/21 16:42:04.10 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:42:04.10 [:01000005] Waiting for 0 harbors
+27/11/21 16:42:04.10 [:01000005] Shakehand ready
+27/11/21 16:42:04.10 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:42:04.10 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:42:04.10 [:01000009] LAUNCH snlua main
+27/11/21 16:42:04.10 [:0100000a] LAUNCH snlua debug_console 10199
+27/11/21 16:42:04.10 [:0100000a] Start debug console at 127.0.0.1:10199
+27/11/21 16:42:04.10 [:01000009] Watchdog listen on 8888
+27/11/21 16:42:04.11 [:01000009] KILL self
+27/11/21 16:42:04.11 [:01000002] KILL self
+27/11/21 16:42:12.97 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:42:12.97 [:01000003] LAUNCH snlua launcher
+27/11/21 16:42:12.97 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:42:12.97 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:42:12.97 [:01000005] LAUNCH snlua cslave
+27/11/21 16:42:12.97 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:42:12.97 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:42:12.97 [:01000004] connect from 127.0.0.1:65472 4
+27/11/21 16:42:12.97 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:42:12.97 [:01000005] Waiting for 0 harbors
+27/11/21 16:42:12.97 [:01000005] Shakehand ready
+27/11/21 16:42:12.97 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:42:12.97 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:42:12.97 [:01000009] LAUNCH snlua main
+27/11/21 16:42:12.98 [:0100000a] LAUNCH snlua debug_console 10199
+27/11/21 16:42:12.98 [:0100000a] Start debug console at 127.0.0.1:10199
+27/11/21 16:42:12.98 [:01000009] Watchdog listen on 8888
+27/11/21 16:42:12.98 [:01000009] KILL self
+27/11/21 16:42:12.98 [:01000002] KILL self
+27/11/21 16:42:27.23 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:42:27.23 [:01000003] LAUNCH snlua launcher
+27/11/21 16:42:27.23 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:42:27.23 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:42:27.23 [:01000005] LAUNCH snlua cslave
+27/11/21 16:42:27.23 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:42:27.24 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:42:27.24 [:01000004] connect from 127.0.0.1:65478 4
+27/11/21 16:42:27.24 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:42:27.24 [:01000005] Waiting for 0 harbors
+27/11/21 16:42:27.24 [:01000005] Shakehand ready
+27/11/21 16:42:27.24 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:42:27.24 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:42:27.24 [:01000009] LAUNCH snlua main
+27/11/21 16:42:27.24 [:0100000a] LAUNCH snlua debug_console 10199
+27/11/21 16:42:27.24 [:0100000a] Start debug console at 127.0.0.1:10199
+27/11/21 16:42:27.24 [:01000009] Watchdog listen on 8888
+27/11/21 16:42:27.24 [:01000009] KILL self
+27/11/21 16:42:27.24 [:01000002] KILL self
+27/11/21 16:43:24.24 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:43:24.25 [:01000003] LAUNCH snlua launcher
+27/11/21 16:43:24.25 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:43:24.25 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:43:24.25 [:01000005] LAUNCH snlua cslave
+27/11/21 16:43:24.25 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:43:24.25 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:43:24.25 [:01000004] connect from 127.0.0.1:65495 4
+27/11/21 16:43:24.25 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:43:24.25 [:01000005] Waiting for 0 harbors
+27/11/21 16:43:24.25 [:01000005] Shakehand ready
+27/11/21 16:43:24.25 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:43:24.25 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:43:24.25 [:01000009] LAUNCH snlua main
+27/11/21 16:43:24.25 [:0100000a] LAUNCH snlua debug_console 10199
+27/11/21 16:43:24.25 [:0100000a] Start debug console at 127.0.0.1:10199
+27/11/21 16:43:24.25 [:0100000b] LAUNCH snlua auth
+27/11/21 16:43:24.25 [:0100000b] lua loader error : ../lualib/loader.lua:24: cannot open ../service/auth.lua: No such file or directory
+stack traceback:
+	[C]: in function 'error'
+	../lualib/loader.lua:24: in main chunk
+27/11/21 16:43:24.25 [:0100000b] KILL self
+27/11/21 16:43:24.25 [:01000009] init service failed: ../lualib/skynet.lua:590: call failed
+stack traceback:
+	[C]: in function 'error'
+	../lualib/skynet.lua:590: in upvalue 'yield_call'
+	../lualib/skynet.lua:607: in function 'skynet.call'
+	(...tail calls...)
+	../service/main.lua:10: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+27/11/21 16:43:24.25 [:01000009] KILL self
+27/11/21 16:43:24.25 [:01000002] KILL self
+27/11/21 16:43:33.08 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:43:33.09 [:01000003] LAUNCH snlua launcher
+27/11/21 16:43:33.09 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:43:33.09 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:43:33.09 [:01000005] LAUNCH snlua cslave
+27/11/21 16:43:33.09 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:43:33.09 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:43:33.09 [:01000004] connect from 127.0.0.1:65497 4
+27/11/21 16:43:33.09 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:43:33.09 [:01000005] Waiting for 0 harbors
+27/11/21 16:43:33.09 [:01000005] Shakehand ready
+27/11/21 16:43:33.09 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:43:33.09 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:43:33.09 [:01000009] LAUNCH snlua main
+27/11/21 16:43:33.09 [:0100000a] LAUNCH snlua debug_console 10199
+27/11/21 16:43:33.09 [:0100000a] Start debug console at 127.0.0.1:10199
+27/11/21 16:43:33.10 [:0100000b] LAUNCH snlua auth
+27/11/21 16:43:33.10 [:0100000b] lua loader error : ../lualib/loader.lua:24: cannot open ../service/auth.lua: No such file or directory
+stack traceback:
+	[C]: in function 'error'
+	../lualib/loader.lua:24: in main chunk
+27/11/21 16:43:33.10 [:0100000b] KILL self
+27/11/21 16:43:33.10 [:01000009] init service failed: ../lualib/skynet.lua:590: call failed
+stack traceback:
+	[C]: in function 'error'
+	../lualib/skynet.lua:590: in upvalue 'yield_call'
+	../lualib/skynet.lua:607: in function 'skynet.call'
+	(...tail calls...)
+	../service/main.lua:10: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+27/11/21 16:43:33.10 [:01000009] KILL self
+27/11/21 16:43:33.10 [:01000002] KILL self
+27/11/21 16:44:13.85 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:44:13.86 [:01000003] LAUNCH snlua launcher
+27/11/21 16:44:13.86 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:44:13.86 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:44:13.86 [:01000005] LAUNCH snlua cslave
+27/11/21 16:44:13.86 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:44:13.86 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:44:13.86 [:01000004] connect from 127.0.0.1:65515 4
+27/11/21 16:44:13.86 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:44:13.86 [:01000005] Waiting for 0 harbors
+27/11/21 16:44:13.86 [:01000005] Shakehand ready
+27/11/21 16:44:13.86 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:44:13.86 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:44:13.86 [:01000009] LAUNCH snlua main
+27/11/21 16:44:13.86 [:0100000a] LAUNCH snlua debug_console 10199
+27/11/21 16:44:13.86 [:0100000a] Start debug console at 127.0.0.1:10199
+27/11/21 16:44:13.86 [:0100000b] LAUNCH snlua auth
+27/11/21 16:44:13.86 [:0100000b] lua loader error : ../lualib/loader.lua:24: cannot open ../service/auth.lua: No such file or directory
+stack traceback:
+	[C]: in function 'error'
+	../lualib/loader.lua:24: in main chunk
+27/11/21 16:44:13.86 [:0100000b] KILL self
+27/11/21 16:44:13.86 [:01000009] init service failed: ../lualib/skynet.lua:590: call failed
+stack traceback:
+	[C]: in function 'error'
+	../lualib/skynet.lua:590: in upvalue 'yield_call'
+	../lualib/skynet.lua:607: in function 'skynet.call'
+	(...tail calls...)
+	../service/main.lua:12: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+27/11/21 16:44:13.86 [:01000009] KILL self
+27/11/21 16:44:13.86 [:01000002] KILL self
+27/11/21 16:44:21.95 [:01000002] LAUNCH snlua bootstrap
+27/11/21 16:44:21.96 [:01000003] LAUNCH snlua launcher
+27/11/21 16:44:21.96 [:01000004] LAUNCH snlua cmaster
+27/11/21 16:44:21.96 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 16:44:21.96 [:01000005] LAUNCH snlua cslave
+27/11/21 16:44:21.96 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 16:44:21.96 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 16:44:21.96 [:01000004] connect from 127.0.0.1:65519 4
+27/11/21 16:44:21.96 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 16:44:21.96 [:01000005] Waiting for 0 harbors
+27/11/21 16:44:21.96 [:01000005] Shakehand ready
+27/11/21 16:44:21.96 [:01000007] LAUNCH snlua datacenterd
+27/11/21 16:44:21.96 [:01000008] LAUNCH snlua service_mgr
+27/11/21 16:44:21.96 [:01000009] LAUNCH snlua main
+27/11/21 16:44:21.96 [:0100000a] LAUNCH snlua debug_console 10199
+27/11/21 16:44:21.96 [:0100000a] Start debug console at 127.0.0.1:10199
+27/11/21 16:44:21.96 [:01000009] KILL self
+27/11/21 16:44:21.96 [:01000002] KILL self
+27/11/21 18:00:45.48 [:01000002] LAUNCH snlua bootstrap
+27/11/21 18:00:45.49 [:01000003] LAUNCH snlua launcher
+27/11/21 18:00:45.50 [:01000004] LAUNCH snlua cmaster
+27/11/21 18:00:45.50 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 18:00:45.50 [:01000005] LAUNCH snlua cslave
+27/11/21 18:00:45.50 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 18:00:45.50 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 18:00:45.50 [:01000004] connect from 127.0.0.1:52472 4
+27/11/21 18:00:45.50 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 18:00:45.50 [:01000005] Waiting for 0 harbors
+27/11/21 18:00:45.50 [:01000005] Shakehand ready
+27/11/21 18:00:45.50 [:01000007] LAUNCH snlua datacenterd
+27/11/21 18:00:45.50 [:01000008] LAUNCH snlua service_mgr
+27/11/21 18:00:45.50 [:01000009] LAUNCH snlua main
+27/11/21 18:00:45.50 [:0100000a] LAUNCH snlua debug_console 10199
+27/11/21 18:00:45.50 [:0100000a] Start debug console at 127.0.0.1:10199
+27/11/21 18:00:45.50 [:01000009] KILL self
+27/11/21 18:00:45.50 [:01000002] KILL self
+27/11/21 18:01:04.41 [:01000002] LAUNCH snlua bootstrap
+27/11/21 18:01:04.42 [:01000003] LAUNCH snlua launcher
+27/11/21 18:01:04.42 [:01000004] LAUNCH snlua cmaster
+27/11/21 18:01:04.42 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 18:01:04.42 [:01000005] LAUNCH snlua cslave
+27/11/21 18:01:04.42 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 18:01:04.42 [:01000004] connect from 127.0.0.1:52481 4
+27/11/21 18:01:04.42 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 18:01:04.42 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 18:01:04.42 [:01000005] Waiting for 0 harbors
+27/11/21 18:01:04.42 [:01000005] Shakehand ready
+27/11/21 18:01:04.42 [:01000007] LAUNCH snlua datacenterd
+27/11/21 18:01:04.42 [:01000008] LAUNCH snlua service_mgr
+27/11/21 18:01:04.42 [:01000009] LAUNCH snlua main
+27/11/21 18:01:04.42 [:0100000a] LAUNCH snlua debug_console 10199
+27/11/21 18:01:04.42 [:0100000a] Start debug console at 127.0.0.1:10199
+27/11/21 18:01:04.43 [:01000009] KILL self
+27/11/21 18:01:04.43 [:01000002] KILL self
+27/11/21 18:01:15.18 [:01000002] LAUNCH snlua bootstrap
+27/11/21 18:01:15.19 [:01000003] LAUNCH snlua launcher
+27/11/21 18:01:15.19 [:01000004] LAUNCH snlua cmaster
+27/11/21 18:01:15.19 [:01000004] master listen socket 0.0.0.0:10100
+27/11/21 18:01:15.19 [:01000005] LAUNCH snlua cslave
+27/11/21 18:01:15.19 [:01000005] slave connect to master 127.0.0.1:10100
+27/11/21 18:01:15.19 [:01000006] LAUNCH harbor 1 16777221
+27/11/21 18:01:15.19 [:01000004] connect from 127.0.0.1:52486 4
+27/11/21 18:01:15.19 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+27/11/21 18:01:15.19 [:01000005] Waiting for 0 harbors
+27/11/21 18:01:15.19 [:01000005] Shakehand ready
+27/11/21 18:01:15.19 [:01000007] LAUNCH snlua datacenterd
+27/11/21 18:01:15.19 [:01000008] LAUNCH snlua service_mgr
+27/11/21 18:01:15.19 [:01000009] LAUNCH snlua main
+27/11/21 18:01:15.19 [:0100000a] LAUNCH snlua debug_console 10199
+27/11/21 18:01:15.19 [:0100000a] Start debug console at 127.0.0.1:10199
+27/11/21 18:01:15.20 [:01000009] KILL self
+27/11/21 18:01:15.20 [:01000002] KILL self
+27/11/21 18:01:24.85 [:0100000a] 127.0.0.1:52491 connected
+27/11/21 18:01:32.94 [:0100000a] 127.0.0.1:52491 disconnect
+27/11/21 18:16:41.83 [:00000000] time diff error: change from 43877426 to 43878266
+27/11/21 21:01:09.81 [:00000000] time diff error: change from 44864195 to 44864224
+27/11/21 21:01:10.21 [:00000000] time diff error: change from 44864200 to 44864235
+27/11/21 23:01:23.58 [:00000000] time diff error: change from 45585521 to 45585537
+28/11/21 01:01:40.67 [:00000000] time diff error: change from 46307215 to 46307230
+28/11/21 03:01:57.27 [:00000000] time diff error: change from 47028863 to 47028875
+28/11/21 04:07:46.17 [:00000000] time diff error: change from 47423746 to 47423753
+28/11/21 06:08:03.31 [:00000000] time diff error: change from 48145445 to 48145460
+28/11/21 06:16:49.14 [:00000000] time diff error: change from 48198021 to 48198028
+28/11/21 06:16:49.79 [:00000000] time diff error: change from 48198080 to 48198086
+28/11/21 08:46:08.63 [:00000000] time diff error: change from 49093956 to 49093964
+28/11/21 12:49:08.37 [:00000000] time diff error: change from 50551911 to 50551930
+28/11/21 12:49:08.77 [:00000000] time diff error: change from 50551926 to 50551951
+29/11/21 07:31:41.34 [:00000000] time diff error: change from 57287157 to 57287183
+29/11/21 09:57:37.30 [:01000002] LAUNCH snlua bootstrap
+29/11/21 09:57:37.31 [:01000003] LAUNCH snlua launcher
+29/11/21 09:57:37.31 [:01000004] LAUNCH snlua cmaster
+29/11/21 09:57:37.31 [:01000004] master listen socket 0.0.0.0:10100
+29/11/21 09:57:37.31 [:01000005] LAUNCH snlua cslave
+29/11/21 09:57:37.31 [:01000005] slave connect to master 127.0.0.1:10100
+29/11/21 09:57:37.32 [:01000004] connect from 127.0.0.1:56856 4
+29/11/21 09:57:37.32 [:01000006] LAUNCH harbor 1 16777221
+29/11/21 09:57:37.32 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+29/11/21 09:57:37.32 [:01000005] Waiting for 0 harbors
+29/11/21 09:57:37.32 [:01000005] Shakehand ready
+29/11/21 09:57:37.32 [:01000007] LAUNCH snlua datacenterd
+29/11/21 09:57:37.32 [:01000008] LAUNCH snlua service_mgr
+29/11/21 09:57:37.32 [:01000009] LAUNCH snlua main
+29/11/21 09:57:37.32 [:0100000a] LAUNCH snlua debug_console 10199
+29/11/21 09:57:37.32 [:0100000a] Start debug console at 127.0.0.1:10199
+29/11/21 09:57:37.32 [:01000009] KILL self
+29/11/21 09:57:37.32 [:01000002] KILL self
+29/11/21 14:03:25.96 [:00000000] time diff error: change from 59637826 to 59637833
+29/11/21 16:16:58.47 [:00000000] time diff error: change from 60438980 to 60439077
+29/11/21 17:02:27.57 [:00000000] time diff error: change from 60711885 to 60711890
+29/11/21 17:32:49.79 [:00000000] time diff error: change from 60894099 to 60894107
+29/11/21 19:03:56.28 [:00000000] time diff error: change from 61440743 to 61440748
+29/11/21 19:19:35.02 [:00000000] time diff error: change from 61534612 to 61534617
+29/11/21 22:21:56.53 [:00000000] time diff error: change from 62628758 to 62628763
+29/11/21 23:53:00.04 [:00000000] time diff error: change from 63175102 to 63175109
+30/11/21 00:39:03.32 [:00000000] time diff error: change from 63451420 to 63451430
+30/11/21 04:28:31.93 [:00000000] time diff error: change from 64828276 to 64828281
+30/11/21 04:43:29.29 [:00000000] time diff error: change from 64918007 to 64918012
+30/11/21 06:44:48.89 [:00000000] time diff error: change from 65645962 to 65645967
+30/11/21 06:59:49.01 [:00000000] time diff error: change from 65735969 to 65735974
+30/11/21 07:29:49.15 [:00000000] time diff error: change from 65915977 to 65915983
+30/11/21 09:30:34.45 [:00000000] time diff error: change from 66640498 to 66640507
+30/11/21 09:45:40.48 [:00000000] time diff error: change from 66731093 to 66731101
+02/12/21 11:19:15.65 [:01000002] LAUNCH snlua bootstrap
+02/12/21 11:19:15.66 [:01000003] LAUNCH snlua launcher
+02/12/21 11:19:15.66 [:01000004] LAUNCH snlua cmaster
+02/12/21 11:19:15.67 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 11:19:15.67 [:01000005] LAUNCH snlua cslave
+02/12/21 11:19:15.67 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 11:19:15.67 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 11:19:15.67 [:01000004] connect from 127.0.0.1:60615 4
+02/12/21 11:19:15.67 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 11:19:15.67 [:01000005] Waiting for 0 harbors
+02/12/21 11:19:15.67 [:01000005] Shakehand ready
+02/12/21 11:19:15.67 [:01000007] LAUNCH snlua datacenterd
+02/12/21 11:19:15.67 [:01000008] LAUNCH snlua service_mgr
+02/12/21 11:19:15.67 [:01000009] LAUNCH snlua main
+02/12/21 11:19:15.68 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 11:19:15.68 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 11:19:15.68 [:01000009] KILL self
+02/12/21 11:19:15.68 [:01000002] KILL self
+02/12/21 11:19:30.10 [:01000002] LAUNCH snlua bootstrap
+02/12/21 11:19:30.12 [:01000003] LAUNCH snlua launcher
+02/12/21 11:19:30.12 [:01000004] LAUNCH snlua cmaster
+02/12/21 11:19:30.12 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 11:19:30.12 [:01000005] LAUNCH snlua cslave
+02/12/21 11:19:30.12 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 11:19:30.12 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 11:19:30.12 [:01000004] connect from 127.0.0.1:60673 4
+02/12/21 11:19:30.12 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 11:19:30.12 [:01000005] Waiting for 0 harbors
+02/12/21 11:19:30.12 [:01000005] Shakehand ready
+02/12/21 11:19:30.12 [:01000007] LAUNCH snlua datacenterd
+02/12/21 11:19:30.12 [:01000008] LAUNCH snlua service_mgr
+02/12/21 11:19:30.12 [:01000009] LAUNCH snlua main
+02/12/21 11:19:30.12 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 11:19:30.12 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 11:19:30.12 [:01000009] KILL self
+02/12/21 11:19:30.12 [:01000002] KILL self
+02/12/21 11:19:46.52 [:01000002] LAUNCH snlua bootstrap
+02/12/21 11:19:46.52 [:01000003] LAUNCH snlua launcher
+02/12/21 11:19:46.52 [:01000004] LAUNCH snlua cmaster
+02/12/21 11:19:46.52 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 11:19:46.52 [:01000005] LAUNCH snlua cslave
+02/12/21 11:19:46.52 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 11:19:46.52 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 11:19:46.52 [:01000004] connect from 127.0.0.1:60740 4
+02/12/21 11:19:46.52 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 11:19:46.52 [:01000005] Waiting for 0 harbors
+02/12/21 11:19:46.52 [:01000005] Shakehand ready
+02/12/21 11:19:46.52 [:01000007] LAUNCH snlua datacenterd
+02/12/21 11:19:46.52 [:01000008] LAUNCH snlua service_mgr
+02/12/21 11:19:46.52 [:01000009] LAUNCH snlua main
+02/12/21 11:19:46.53 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 11:19:46.53 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 11:19:46.53 [:01000009] KILL self
+02/12/21 11:19:46.53 [:01000002] KILL self
+02/12/21 11:20:09.08 [:0100000a] 127.0.0.1:60808 connected
+02/12/21 11:45:08.88 [:01000002] LAUNCH snlua bootstrap
+02/12/21 11:45:08.89 [:01000003] LAUNCH snlua launcher
+02/12/21 11:45:08.89 [:01000004] LAUNCH snlua cmaster
+02/12/21 11:45:08.89 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 11:45:08.89 [:01000005] LAUNCH snlua cslave
+02/12/21 11:45:08.89 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 11:45:08.89 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 11:45:08.89 [:01000004] connect from 127.0.0.1:50008 4
+02/12/21 11:45:08.89 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 11:45:08.89 [:01000005] Waiting for 0 harbors
+02/12/21 11:45:08.89 [:01000005] Shakehand ready
+02/12/21 11:45:08.89 [:01000007] LAUNCH snlua datacenterd
+02/12/21 11:45:08.89 [:01000008] LAUNCH snlua service_mgr
+02/12/21 11:45:08.89 [:01000009] LAUNCH snlua main
+02/12/21 11:45:08.89 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 11:45:08.89 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 11:45:08.90 [:01000009] KILL self
+02/12/21 11:45:08.90 [:01000002] KILL self
+02/12/21 11:45:17.13 [:01000002] LAUNCH snlua bootstrap
+02/12/21 11:45:17.14 [:01000003] LAUNCH snlua launcher
+02/12/21 11:45:17.14 [:01000004] LAUNCH snlua cmaster
+02/12/21 11:45:17.14 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 11:45:17.14 [:01000005] LAUNCH snlua cslave
+02/12/21 11:45:17.14 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 11:45:17.14 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 11:45:17.14 [:01000004] connect from 127.0.0.1:50012 4
+02/12/21 11:45:17.14 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 11:45:17.14 [:01000005] Waiting for 0 harbors
+02/12/21 11:45:17.14 [:01000005] Shakehand ready
+02/12/21 11:45:17.14 [:01000007] LAUNCH snlua datacenterd
+02/12/21 11:45:17.14 [:01000008] LAUNCH snlua service_mgr
+02/12/21 11:45:17.14 [:01000009] LAUNCH snlua main
+02/12/21 11:45:17.14 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 11:45:17.14 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 11:45:17.14 [:0100000b] LAUNCH snlua auth
+02/12/21 11:45:17.14 [:0100000b] lua loader error : ../service/auth.lua:7: attempt to index a nil value (global 'authSvc')
+stack traceback:
+	../service/auth.lua:7: in local 'main'
+	../lualib/loader.lua:50: in main chunk
+02/12/21 11:45:17.14 [:0100000b] KILL self
+02/12/21 11:45:17.14 [:01000009] init service failed: ../lualib/skynet.lua:590: call failed
+stack traceback:
+	[C]: in function 'error'
+	../lualib/skynet.lua:590: in upvalue 'yield_call'
+	../lualib/skynet.lua:607: in function 'skynet.call'
+	(...tail calls...)
+	../service/main.lua:12: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+02/12/21 11:45:17.14 [:01000009] KILL self
+02/12/21 11:45:17.14 [:01000002] KILL self
+02/12/21 11:45:29.46 [:01000002] LAUNCH snlua bootstrap
+02/12/21 11:45:29.46 [:01000003] LAUNCH snlua launcher
+02/12/21 11:45:29.46 [:01000004] LAUNCH snlua cmaster
+02/12/21 11:45:29.46 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 11:45:29.46 [:01000005] LAUNCH snlua cslave
+02/12/21 11:45:29.46 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 11:45:29.46 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 11:45:29.46 [:01000004] connect from 127.0.0.1:50072 4
+02/12/21 11:45:29.46 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 11:45:29.46 [:01000005] Waiting for 0 harbors
+02/12/21 11:45:29.46 [:01000005] Shakehand ready
+02/12/21 11:45:29.46 [:01000007] LAUNCH snlua datacenterd
+02/12/21 11:45:29.46 [:01000008] LAUNCH snlua service_mgr
+02/12/21 11:45:29.47 [:01000009] LAUNCH snlua main
+02/12/21 11:45:29.47 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 11:45:29.47 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 11:45:29.47 [:0100000b] LAUNCH snlua auth
+02/12/21 11:45:29.47 [:01000009] KILL self
+02/12/21 11:45:29.47 [:01000002] KILL self
+02/12/21 11:45:54.91 [:0100000a] 127.0.0.1:50232 connected
+02/12/21 13:48:10.80 [:00000000] time diff error: change from 85466138 to 85466146
+02/12/21 13:58:06.52 [:01000002] LAUNCH snlua bootstrap
+02/12/21 13:58:06.53 [:01000003] LAUNCH snlua launcher
+02/12/21 13:58:06.53 [:01000004] LAUNCH snlua cmaster
+02/12/21 13:58:06.53 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 13:58:06.53 [:01000005] LAUNCH snlua cslave
+02/12/21 13:58:06.53 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 13:58:06.53 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 13:58:06.53 [:01000004] connect from 127.0.0.1:58852 4
+02/12/21 13:58:06.53 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 13:58:06.53 [:01000005] Waiting for 0 harbors
+02/12/21 13:58:06.53 [:01000005] Shakehand ready
+02/12/21 13:58:06.53 [:01000007] LAUNCH snlua datacenterd
+02/12/21 13:58:06.53 [:01000008] LAUNCH snlua service_mgr
+02/12/21 13:58:06.53 [:01000009] LAUNCH snlua main
+02/12/21 13:58:06.54 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 13:58:06.54 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 13:58:06.54 [:0100000b] LAUNCH snlua auth
+02/12/21 13:58:06.54 [:0100000b] lua loader error : ../service/auth.lua:6: attempt to index a nil value (local 'command')
+stack traceback:
+	../service/auth.lua:6: in local 'main'
+	../lualib/loader.lua:50: in main chunk
+02/12/21 13:58:06.54 [:0100000b] KILL self
+02/12/21 13:58:06.54 [:01000009] init service failed: ../lualib/skynet.lua:590: call failed
+stack traceback:
+	[C]: in function 'error'
+	../lualib/skynet.lua:590: in upvalue 'yield_call'
+	../lualib/skynet.lua:607: in function 'skynet.call'
+	(...tail calls...)
+	../service/main.lua:12: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+02/12/21 13:58:06.54 [:01000009] KILL self
+02/12/21 13:58:06.54 [:01000002] KILL self
+02/12/21 13:59:20.59 [:01000002] LAUNCH snlua bootstrap
+02/12/21 13:59:20.59 [:01000003] LAUNCH snlua launcher
+02/12/21 13:59:20.59 [:01000004] LAUNCH snlua cmaster
+02/12/21 13:59:20.59 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 13:59:20.60 [:01000005] LAUNCH snlua cslave
+02/12/21 13:59:20.60 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 13:59:20.60 [:01000004] connect from 127.0.0.1:58886 4
+02/12/21 13:59:20.60 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 13:59:20.60 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 13:59:20.60 [:01000005] Waiting for 0 harbors
+02/12/21 13:59:20.60 [:01000005] Shakehand ready
+02/12/21 13:59:20.60 [:01000007] LAUNCH snlua datacenterd
+02/12/21 13:59:20.60 [:01000008] LAUNCH snlua service_mgr
+02/12/21 13:59:20.60 [:01000009] LAUNCH snlua main
+02/12/21 13:59:20.60 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 13:59:20.60 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 13:59:20.60 [:0100000b] LAUNCH snlua auth
+02/12/21 13:59:20.60 [:01000009] init service failed: ../lualib/skynet.lua:603: attempt to index a nil value (local 'p')
+stack traceback:
+	../lualib/skynet.lua:603: in function 'skynet.call'
+	../service/main.lua:13: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+02/12/21 13:59:20.60 [:01000009] KILL self
+02/12/21 13:59:20.60 [:01000002] KILL self
+02/12/21 13:59:41.07 [:01000002] LAUNCH snlua bootstrap
+02/12/21 13:59:41.07 [:01000003] LAUNCH snlua launcher
+02/12/21 13:59:41.07 [:01000004] LAUNCH snlua cmaster
+02/12/21 13:59:41.07 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 13:59:41.07 [:01000005] LAUNCH snlua cslave
+02/12/21 13:59:41.07 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 13:59:41.07 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 13:59:41.07 [:01000004] connect from 127.0.0.1:58900 4
+02/12/21 13:59:41.07 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 13:59:41.07 [:01000005] Waiting for 0 harbors
+02/12/21 13:59:41.07 [:01000005] Shakehand ready
+02/12/21 13:59:41.07 [:01000007] LAUNCH snlua datacenterd
+02/12/21 13:59:41.08 [:01000008] LAUNCH snlua service_mgr
+02/12/21 13:59:41.08 [:01000009] LAUNCH snlua main
+02/12/21 13:59:41.08 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 13:59:41.08 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 13:59:41.08 [:0100000b] LAUNCH snlua auth
+02/12/21 13:59:41.08 [:01000009] init service failed: ../lualib/skynet.lua:603: attempt to index a nil value (local 'p')
+stack traceback:
+	../lualib/skynet.lua:603: in function 'skynet.call'
+	../service/main.lua:13: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+02/12/21 13:59:41.08 [:01000009] KILL self
+02/12/21 13:59:41.08 [:01000002] KILL self
+02/12/21 14:01:02.93 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:01:02.94 [:01000003] LAUNCH snlua launcher
+02/12/21 14:01:02.94 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:01:02.94 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:01:02.94 [:01000005] LAUNCH snlua cslave
+02/12/21 14:01:02.94 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:01:02.94 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:01:02.94 [:01000004] connect from 127.0.0.1:58954 4
+02/12/21 14:01:02.94 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:01:02.94 [:01000005] Waiting for 0 harbors
+02/12/21 14:01:02.94 [:01000005] Shakehand ready
+02/12/21 14:01:02.94 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:01:02.94 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:01:02.94 [:01000009] LAUNCH snlua main
+02/12/21 14:01:02.94 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:01:02.94 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:01:02.95 [:0100000b] LAUNCH snlua auth
+02/12/21 14:01:02.95 [:01000009] KILL self
+02/12/21 14:01:02.95 [:01000002] KILL self
+02/12/21 14:01:07.81 [:0100000a] 127.0.0.1:58958 connected
+02/12/21 14:01:34.13 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:01:34.13 [:01000003] LAUNCH snlua launcher
+02/12/21 14:01:34.13 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:01:34.13 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:01:34.13 [:01000005] LAUNCH snlua cslave
+02/12/21 14:01:34.13 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:01:34.14 [:01000004] connect from 127.0.0.1:58969 4
+02/12/21 14:01:34.14 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:01:34.14 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:01:34.14 [:01000005] Waiting for 0 harbors
+02/12/21 14:01:34.14 [:01000005] Shakehand ready
+02/12/21 14:01:34.14 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:01:34.14 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:01:34.14 [:01000009] LAUNCH snlua main
+02/12/21 14:01:34.14 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:01:34.14 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:01:34.14 [:0100000b] LAUNCH snlua auth
+02/12/21 14:01:34.14 [:01000009] KILL self
+02/12/21 14:01:34.14 [:01000002] KILL self
+02/12/21 14:20:51.59 [:00000000] time diff error: change from 85662210 to 85662216
+02/12/21 14:21:16.09 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:21:16.09 [:01000003] LAUNCH snlua launcher
+02/12/21 14:21:16.09 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:21:16.09 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:21:16.09 [:01000005] LAUNCH snlua cslave
+02/12/21 14:21:16.09 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:21:16.09 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:21:16.09 [:01000004] connect from 127.0.0.1:60008 4
+02/12/21 14:21:16.09 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:21:16.09 [:01000005] Waiting for 0 harbors
+02/12/21 14:21:16.09 [:01000005] Shakehand ready
+02/12/21 14:21:16.09 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:21:16.09 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:21:16.10 [:01000009] LAUNCH snlua main
+02/12/21 14:21:16.10 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:21:16.10 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:21:16.10 [:0100000b] LAUNCH snlua auth
+02/12/21 14:21:16.10 [:0100000b] lua call [1000009 to :100000b : 4 msgsz = 17] error : [31m../lualib/skynet.lua:858: ../lualib/skynet.lua:330: ../lualib/functions.lua:13: attempt to call a nil value (field 'split')
+stack traceback:
+	../lualib/functions.lua:13: in function 'dump'
+	../service/auth.lua:6: in function 'command_base.getRoleBaseInfo'
+	../service/command_base.lua:19: in upvalue 'f'
+	../lualib/skynet.lua:280: in function <../lualib/skynet.lua:252>
+stack traceback:
+	[C]: in function 'assert'
+	../lualib/skynet.lua:858: in function 'skynet.dispatch_message'[0m
+02/12/21 14:21:16.10 [:01000009] init service failed: ../lualib/skynet.lua:590: call failed
+stack traceback:
+	[C]: in function 'error'
+	../lualib/skynet.lua:590: in upvalue 'yield_call'
+	../lualib/skynet.lua:607: in function 'skynet.call'
+	../service/main.lua:13: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+02/12/21 14:21:16.10 [:01000009] KILL self
+02/12/21 14:21:16.10 [:01000002] KILL self
+02/12/21 14:22:08.44 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:22:08.44 [:01000003] LAUNCH snlua launcher
+02/12/21 14:22:08.44 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:22:08.44 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:22:08.44 [:01000005] LAUNCH snlua cslave
+02/12/21 14:22:08.44 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:22:08.44 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:22:08.44 [:01000004] connect from 127.0.0.1:60024 4
+02/12/21 14:22:08.44 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:22:08.44 [:01000005] Waiting for 0 harbors
+02/12/21 14:22:08.44 [:01000005] Shakehand ready
+02/12/21 14:22:08.44 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:22:08.45 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:22:08.45 [:01000009] LAUNCH snlua main
+02/12/21 14:22:08.45 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:22:08.45 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:22:08.45 [:0100000b] LAUNCH snlua auth
+02/12/21 14:22:08.45 [:0100000b] lua call [1000009 to :100000b : 4 msgsz = 17] error : [31m../lualib/skynet.lua:858: ../lualib/skynet.lua:330: ../lualib/functions.lua:33: attempt to call a nil value (field 'trim')
+stack traceback:
+	../lualib/functions.lua:33: in function 'dump'
+	../service/auth.lua:6: in function 'command_base.getRoleBaseInfo'
+	../service/command_base.lua:19: in upvalue 'f'
+	../lualib/skynet.lua:280: in function <../lualib/skynet.lua:252>
+stack traceback:
+	[C]: in function 'assert'
+	../lualib/skynet.lua:858: in function 'skynet.dispatch_message'[0m
+02/12/21 14:22:08.45 [:01000009] init service failed: ../lualib/skynet.lua:590: call failed
+stack traceback:
+	[C]: in function 'error'
+	../lualib/skynet.lua:590: in upvalue 'yield_call'
+	../lualib/skynet.lua:607: in function 'skynet.call'
+	../service/main.lua:13: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+02/12/21 14:22:08.45 [:01000009] KILL self
+02/12/21 14:22:08.45 [:01000002] KILL self
+02/12/21 14:22:13.06 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:22:13.06 [:01000003] LAUNCH snlua launcher
+02/12/21 14:22:13.06 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:22:13.06 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:22:13.06 [:01000005] LAUNCH snlua cslave
+02/12/21 14:22:13.06 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:22:13.06 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:22:13.06 [:01000004] connect from 127.0.0.1:60028 4
+02/12/21 14:22:13.06 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:22:13.06 [:01000005] Waiting for 0 harbors
+02/12/21 14:22:13.06 [:01000005] Shakehand ready
+02/12/21 14:22:13.06 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:22:13.07 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:22:13.07 [:01000009] LAUNCH snlua main
+02/12/21 14:22:13.07 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:22:13.07 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:22:13.07 [:0100000b] LAUNCH snlua auth
+02/12/21 14:22:13.07 [:0100000b] lua call [1000009 to :100000b : 4 msgsz = 17] error : [31m../lualib/skynet.lua:858: ../lualib/skynet.lua:330: ../lualib/functions.lua:33: attempt to call a nil value (field 'trim')
+stack traceback:
+	../lualib/functions.lua:33: in function 'dump'
+	../service/auth.lua:6: in function 'command_base.getRoleBaseInfo'
+	../service/command_base.lua:19: in upvalue 'f'
+	../lualib/skynet.lua:280: in function <../lualib/skynet.lua:252>
+stack traceback:
+	[C]: in function 'assert'
+	../lualib/skynet.lua:858: in function 'skynet.dispatch_message'[0m
+02/12/21 14:22:13.07 [:01000009] init service failed: ../lualib/skynet.lua:590: call failed
+stack traceback:
+	[C]: in function 'error'
+	../lualib/skynet.lua:590: in upvalue 'yield_call'
+	../lualib/skynet.lua:607: in function 'skynet.call'
+	../service/main.lua:13: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+02/12/21 14:22:13.07 [:01000009] KILL self
+02/12/21 14:22:13.07 [:01000002] KILL self
+02/12/21 14:22:34.27 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:22:34.28 [:01000003] LAUNCH snlua launcher
+02/12/21 14:22:34.28 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:22:34.28 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:22:34.28 [:01000005] LAUNCH snlua cslave
+02/12/21 14:22:34.28 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:22:34.28 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:22:34.28 [:01000004] connect from 127.0.0.1:60049 4
+02/12/21 14:22:34.28 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:22:34.28 [:01000005] Waiting for 0 harbors
+02/12/21 14:22:34.28 [:01000005] Shakehand ready
+02/12/21 14:22:34.28 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:22:34.28 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:22:34.28 [:01000009] LAUNCH snlua main
+02/12/21 14:22:34.28 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:22:34.28 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:22:34.28 [:0100000b] LAUNCH snlua auth
+02/12/21 14:22:34.28 [:0100000b] lua call [1000009 to :100000b : 4 msgsz = 17] error : [31m../lualib/skynet.lua:858: ../lualib/skynet.lua:330: ../lualib/functions.lua:60: attempt to call a nil value (global 'dump_value_')
+stack traceback:
+	../lualib/functions.lua:60: in local 'dump_'
+	../lualib/functions.lua:99: in function 'dump'
+	../service/auth.lua:6: in function 'command_base.getRoleBaseInfo'
+	../service/command_base.lua:19: in upvalue 'f'
+	../lualib/skynet.lua:280: in function <../lualib/skynet.lua:252>
+stack traceback:
+	[C]: in function 'assert'
+	../lualib/skynet.lua:858: in function 'skynet.dispatch_message'[0m
+02/12/21 14:22:34.28 [:01000009] init service failed: ../lualib/skynet.lua:590: call failed
+stack traceback:
+	[C]: in function 'error'
+	../lualib/skynet.lua:590: in upvalue 'yield_call'
+	../lualib/skynet.lua:607: in function 'skynet.call'
+	../service/main.lua:13: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+02/12/21 14:22:34.28 [:01000009] KILL self
+02/12/21 14:22:34.28 [:01000002] KILL self
+02/12/21 14:22:37.79 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:22:37.80 [:01000003] LAUNCH snlua launcher
+02/12/21 14:22:37.80 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:22:37.80 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:22:37.80 [:01000005] LAUNCH snlua cslave
+02/12/21 14:22:37.80 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:22:37.80 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:22:37.80 [:01000004] connect from 127.0.0.1:60054 4
+02/12/21 14:22:37.80 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:22:37.80 [:01000005] Waiting for 0 harbors
+02/12/21 14:22:37.80 [:01000005] Shakehand ready
+02/12/21 14:22:37.80 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:22:37.80 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:22:37.80 [:01000009] LAUNCH snlua main
+02/12/21 14:22:37.80 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:22:37.80 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:22:37.80 [:0100000b] LAUNCH snlua auth
+02/12/21 14:22:37.80 [:0100000b] lua call [1000009 to :100000b : 4 msgsz = 17] error : [31m../lualib/skynet.lua:858: ../lualib/skynet.lua:330: ../lualib/functions.lua:60: attempt to call a nil value (global 'dump_value_')
+stack traceback:
+	../lualib/functions.lua:60: in local 'dump_'
+	../lualib/functions.lua:99: in function 'dump'
+	../service/auth.lua:6: in function 'command_base.getRoleBaseInfo'
+	../service/command_base.lua:19: in upvalue 'f'
+	../lualib/skynet.lua:280: in function <../lualib/skynet.lua:252>
+stack traceback:
+	[C]: in function 'assert'
+	../lualib/skynet.lua:858: in function 'skynet.dispatch_message'[0m
+02/12/21 14:22:37.81 [:01000009] init service failed: ../lualib/skynet.lua:590: call failed
+stack traceback:
+	[C]: in function 'error'
+	../lualib/skynet.lua:590: in upvalue 'yield_call'
+	../lualib/skynet.lua:607: in function 'skynet.call'
+	../service/main.lua:13: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+02/12/21 14:22:37.81 [:01000009] KILL self
+02/12/21 14:22:37.81 [:01000002] KILL self
+02/12/21 14:22:52.78 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:22:52.78 [:01000003] LAUNCH snlua launcher
+02/12/21 14:22:52.78 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:22:52.78 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:22:52.78 [:01000005] LAUNCH snlua cslave
+02/12/21 14:22:52.78 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:22:52.78 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:22:52.78 [:01000004] connect from 127.0.0.1:60062 4
+02/12/21 14:22:52.78 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:22:52.78 [:01000005] Waiting for 0 harbors
+02/12/21 14:22:52.78 [:01000005] Shakehand ready
+02/12/21 14:22:52.78 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:22:52.79 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:22:52.79 [:01000009] LAUNCH snlua main
+02/12/21 14:22:52.79 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:22:52.79 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:22:52.79 [:0100000b] LAUNCH snlua auth
+02/12/21 14:22:52.79 [:01000009] KILL self
+02/12/21 14:22:52.79 [:01000002] KILL self
+02/12/21 14:23:48.46 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:23:48.46 [:01000003] LAUNCH snlua launcher
+02/12/21 14:23:48.46 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:23:48.46 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:23:48.47 [:01000005] LAUNCH snlua cslave
+02/12/21 14:23:48.47 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:23:48.47 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:23:48.47 [:01000004] connect from 127.0.0.1:60098 4
+02/12/21 14:23:48.47 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:23:48.47 [:01000005] Waiting for 0 harbors
+02/12/21 14:23:48.47 [:01000005] Shakehand ready
+02/12/21 14:23:48.47 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:23:48.47 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:23:48.47 [:01000009] LAUNCH snlua main
+02/12/21 14:23:48.47 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:23:48.47 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:23:48.47 [:0100000b] LAUNCH snlua auth
+02/12/21 14:23:48.47 [:01000009] KILL self
+02/12/21 14:23:48.47 [:01000002] KILL self
+02/12/21 14:23:49.50 [:0100000a] 127.0.0.1:60099 connected
+02/12/21 14:24:41.14 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:24:41.15 [:01000003] LAUNCH snlua launcher
+02/12/21 14:24:41.15 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:24:41.15 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:24:41.15 [:01000005] LAUNCH snlua cslave
+02/12/21 14:24:41.15 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:24:41.15 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:24:41.15 [:01000004] connect from 127.0.0.1:60131 4
+02/12/21 14:24:41.15 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:24:41.15 [:01000005] Waiting for 0 harbors
+02/12/21 14:24:41.15 [:01000005] Shakehand ready
+02/12/21 14:24:41.15 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:24:41.15 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:24:41.15 [:01000009] LAUNCH snlua main
+02/12/21 14:24:41.16 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:24:41.16 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:24:41.16 [:0100000b] LAUNCH snlua auth
+02/12/21 14:24:41.16 [:01000009] KILL self
+02/12/21 14:24:41.16 [:01000002] KILL self
+02/12/21 14:24:48.43 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:24:48.43 [:01000003] LAUNCH snlua launcher
+02/12/21 14:24:48.43 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:24:48.43 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:24:48.43 [:01000005] LAUNCH snlua cslave
+02/12/21 14:24:48.43 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:24:48.44 [:01000004] connect from 127.0.0.1:60134 4
+02/12/21 14:24:48.44 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:24:48.44 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:24:48.44 [:01000005] Waiting for 0 harbors
+02/12/21 14:24:48.44 [:01000005] Shakehand ready
+02/12/21 14:24:48.44 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:24:48.44 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:24:48.44 [:01000009] LAUNCH snlua main
+02/12/21 14:24:48.44 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:24:48.44 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:24:48.44 [:0100000b] LAUNCH snlua auth
+02/12/21 14:24:50.31 [:0100000a] 127.0.0.1:60135 connected
+02/12/21 14:24:58.46 [:00000000] A message from [ :01000009 ] to [ :0100000b ] maybe in an endless loop (version = 93)
+02/12/21 14:25:03.48 [:00000000] A message from [ :01000009 ] to [ :0100000b ] maybe in an endless loop (version = 93)
+02/12/21 14:25:08.50 [:00000000] A message from [ :01000009 ] to [ :0100000b ] maybe in an endless loop (version = 93)
+02/12/21 14:25:13.52 [:00000000] A message from [ :01000009 ] to [ :0100000b ] maybe in an endless loop (version = 93)
+02/12/21 14:25:18.53 [:00000000] A message from [ :01000009 ] to [ :0100000b ] maybe in an endless loop (version = 93)
+02/12/21 14:25:23.55 [:00000000] A message from [ :01000009 ] to [ :0100000b ] maybe in an endless loop (version = 93)
+02/12/21 14:25:25.95 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:25:25.95 [:01000003] LAUNCH snlua launcher
+02/12/21 14:25:25.95 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:25:25.95 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:25:25.96 [:01000005] LAUNCH snlua cslave
+02/12/21 14:25:25.96 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:25:25.96 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:25:25.96 [:01000004] connect from 127.0.0.1:60151 4
+02/12/21 14:25:25.96 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:25:25.96 [:01000005] Waiting for 0 harbors
+02/12/21 14:25:25.96 [:01000005] Shakehand ready
+02/12/21 14:25:25.96 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:25:25.96 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:25:25.96 [:01000009] LAUNCH snlua main
+02/12/21 14:25:25.96 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:25:25.96 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:25:25.96 [:0100000b] LAUNCH snlua auth
+02/12/21 14:25:25.96 [:01000009] KILL self
+02/12/21 14:25:25.96 [:01000002] KILL self
+02/12/21 14:25:28.52 [:0100000a] 127.0.0.1:60153 connected
+02/12/21 14:30:16.71 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:30:16.72 [:01000003] LAUNCH snlua launcher
+02/12/21 14:30:16.72 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:30:16.72 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:30:16.72 [:01000005] LAUNCH snlua cslave
+02/12/21 14:30:16.72 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:30:16.72 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:30:16.72 [:01000004] connect from 127.0.0.1:60341 4
+02/12/21 14:30:16.72 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:30:16.72 [:01000005] Waiting for 0 harbors
+02/12/21 14:30:16.72 [:01000005] Shakehand ready
+02/12/21 14:30:16.72 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:30:16.72 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:30:16.72 [:01000009] LAUNCH snlua main
+02/12/21 14:30:16.72 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:30:16.72 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:30:16.72 [:0100000b] LAUNCH snlua auth
+02/12/21 14:30:16.72 [:01000009] KILL self
+02/12/21 14:30:16.72 [:01000002] KILL self
+02/12/21 14:30:19.96 [:0100000a] 127.0.0.1:60343 connected
+02/12/21 14:30:34.41 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:30:34.42 [:01000003] LAUNCH snlua launcher
+02/12/21 14:30:34.42 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:30:34.42 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:30:34.42 [:01000005] LAUNCH snlua cslave
+02/12/21 14:30:34.42 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:30:34.42 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:30:34.42 [:01000004] connect from 127.0.0.1:60355 4
+02/12/21 14:30:34.42 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:30:34.42 [:01000005] Waiting for 0 harbors
+02/12/21 14:30:34.42 [:01000005] Shakehand ready
+02/12/21 14:30:34.42 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:30:34.42 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:30:34.42 [:01000009] LAUNCH snlua main
+02/12/21 14:30:34.42 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:30:34.42 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:30:34.42 [:0100000b] LAUNCH snlua auth
+02/12/21 14:30:34.42 [:01000009] KILL self
+02/12/21 14:30:34.42 [:01000002] KILL self
+02/12/21 14:30:36.73 [:0100000a] 127.0.0.1:60356 connected
+02/12/21 14:33:47.43 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:33:47.44 [:01000003] LAUNCH snlua launcher
+02/12/21 14:33:47.44 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:33:47.44 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:33:47.44 [:01000005] LAUNCH snlua cslave
+02/12/21 14:33:47.44 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:33:47.44 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:33:47.44 [:01000004] connect from 127.0.0.1:60446 4
+02/12/21 14:33:47.44 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:33:47.44 [:01000005] Waiting for 0 harbors
+02/12/21 14:33:47.44 [:01000005] Shakehand ready
+02/12/21 14:33:47.44 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:33:47.44 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:33:47.44 [:01000009] LAUNCH snlua main
+02/12/21 14:33:47.44 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:33:47.44 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:33:47.44 [:0100000b] LAUNCH snlua auth
+02/12/21 14:33:47.44 [:01000009] KILL self
+02/12/21 14:33:47.44 [:01000002] KILL self
+02/12/21 14:33:49.26 [:0100000a] 127.0.0.1:60448 connected
+02/12/21 14:33:52.88 [:0100000b] lua call [100000a to :100000b : 5 msgsz = 5] error : [31m../lualib/skynet.lua:858: ../lualib/skynet.lua:330: ../service/command_base.lua:59: bad argument #6 to 'format' (no value)
+stack traceback:
+	[C]: in function 'string.format'
+	../service/command_base.lua:59: in upvalue 'internal_info_func'
+	../lualib/skynet/debug.lua:74: in local 'f'
+	../lualib/skynet/debug.lua:130: in upvalue 'f'
+	../lualib/skynet.lua:280: in function <../lualib/skynet.lua:252>
+stack traceback:
+	[C]: in function 'assert'
+	../lualib/skynet.lua:858: in function 'skynet.dispatch_message'[0m
+02/12/21 14:34:10.49 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:34:10.49 [:01000003] LAUNCH snlua launcher
+02/12/21 14:34:10.49 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:34:10.49 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:34:10.49 [:01000005] LAUNCH snlua cslave
+02/12/21 14:34:10.49 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:34:10.50 [:01000004] connect from 127.0.0.1:60457 4
+02/12/21 14:34:10.50 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:34:10.50 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:34:10.50 [:01000005] Waiting for 0 harbors
+02/12/21 14:34:10.50 [:01000005] Shakehand ready
+02/12/21 14:34:10.50 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:34:10.50 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:34:10.50 [:01000009] LAUNCH snlua main
+02/12/21 14:34:10.50 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:34:10.50 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:34:10.50 [:0100000b] LAUNCH snlua auth
+02/12/21 14:34:10.50 [:01000009] KILL self
+02/12/21 14:34:10.50 [:01000002] KILL self
+02/12/21 14:34:12.92 [:0100000a] 127.0.0.1:60458 connected
+02/12/21 14:34:50.46 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:34:50.46 [:01000003] LAUNCH snlua launcher
+02/12/21 14:34:50.46 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:34:50.46 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:34:50.46 [:01000005] LAUNCH snlua cslave
+02/12/21 14:34:50.46 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:34:50.46 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:34:50.46 [:01000004] connect from 127.0.0.1:60480 4
+02/12/21 14:34:50.46 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:34:50.46 [:01000005] Waiting for 0 harbors
+02/12/21 14:34:50.46 [:01000005] Shakehand ready
+02/12/21 14:34:50.46 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:34:50.47 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:34:50.47 [:01000009] LAUNCH snlua main
+02/12/21 14:34:50.47 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:34:50.47 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:34:50.47 [:0100000b] LAUNCH snlua auth
+02/12/21 14:34:50.47 [:01000009] KILL self
+02/12/21 14:34:50.47 [:01000002] KILL self
+02/12/21 14:34:51.99 [:0100000a] 127.0.0.1:60485 connected
+02/12/21 14:35:06.18 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:35:06.18 [:01000003] LAUNCH snlua launcher
+02/12/21 14:35:06.18 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:35:06.18 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:35:06.19 [:01000005] LAUNCH snlua cslave
+02/12/21 14:35:06.19 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:35:06.19 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:35:06.19 [:01000004] connect from 127.0.0.1:60493 4
+02/12/21 14:35:06.19 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:35:06.19 [:01000005] Waiting for 0 harbors
+02/12/21 14:35:06.19 [:01000005] Shakehand ready
+02/12/21 14:35:06.19 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:35:06.19 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:35:06.19 [:01000009] LAUNCH snlua main
+02/12/21 14:35:06.19 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:35:06.19 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:35:06.19 [:0100000b] LAUNCH snlua auth
+02/12/21 14:35:06.19 [:01000009] KILL self
+02/12/21 14:35:06.19 [:01000002] KILL self
+02/12/21 14:35:07.62 [:0100000a] 127.0.0.1:60494 connected
+02/12/21 14:35:35.67 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:35:35.67 [:01000003] LAUNCH snlua launcher
+02/12/21 14:35:35.67 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:35:35.67 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:35:35.67 [:01000005] LAUNCH snlua cslave
+02/12/21 14:35:35.67 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:35:35.67 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:35:35.67 [:01000004] connect from 127.0.0.1:60507 4
+02/12/21 14:35:35.67 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:35:35.67 [:01000005] Waiting for 0 harbors
+02/12/21 14:35:35.67 [:01000005] Shakehand ready
+02/12/21 14:35:35.67 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:35:35.68 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:35:35.68 [:01000009] LAUNCH snlua main
+02/12/21 14:35:35.68 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:35:35.68 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:35:35.68 [:0100000b] LAUNCH snlua auth
+02/12/21 14:35:35.68 [:01000009] KILL self
+02/12/21 14:35:35.68 [:01000002] KILL self
+02/12/21 14:35:37.49 [:0100000a] 127.0.0.1:60510 connected
+02/12/21 14:39:48.05 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:39:48.05 [:01000003] LAUNCH snlua launcher
+02/12/21 14:39:48.05 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:39:48.05 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:39:48.05 [:01000005] LAUNCH snlua cslave
+02/12/21 14:39:48.06 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:39:48.06 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:39:48.06 [:01000004] connect from 127.0.0.1:60674 4
+02/12/21 14:39:48.06 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:39:48.06 [:01000005] Waiting for 0 harbors
+02/12/21 14:39:48.06 [:01000005] Shakehand ready
+02/12/21 14:39:48.06 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:39:48.06 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:39:48.06 [:01000009] LAUNCH snlua main
+02/12/21 14:39:48.06 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:39:48.06 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:39:48.06 [:0100000b] LAUNCH snlua auth
+02/12/21 14:39:48.06 [:0100000b] lua call [1000009 to :100000b : 5 msgsz = 18] error : [31m../lualib/skynet.lua:858: ../lualib/skynet.lua:330: ../service/command_base.lua:21: attempt to index a nil value (global 'logger')
+stack traceback:
+	../service/command_base.lua:21: in upvalue 'f'
+	../lualib/skynet.lua:280: in function <../lualib/skynet.lua:252>
+stack traceback:
+	[C]: in function 'assert'
+	../lualib/skynet.lua:858: in function 'skynet.dispatch_message'[0m
+02/12/21 14:39:48.06 [:01000009] init service failed: ../lualib/skynet.lua:590: call failed
+stack traceback:
+	[C]: in function 'error'
+	../lualib/skynet.lua:590: in upvalue 'yield_call'
+	../lualib/skynet.lua:607: in function 'skynet.call'
+	../service/main.lua:14: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+02/12/21 14:39:48.06 [:01000009] KILL self
+02/12/21 14:39:48.06 [:01000002] KILL self
+02/12/21 14:41:00.57 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:41:00.57 [:01000003] LAUNCH snlua launcher
+02/12/21 14:41:00.57 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:41:00.57 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:41:00.57 [:01000005] LAUNCH snlua cslave
+02/12/21 14:41:00.57 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:41:00.57 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:41:00.57 [:01000004] connect from 127.0.0.1:60709 4
+02/12/21 14:41:00.57 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:41:00.57 [:01000005] Waiting for 0 harbors
+02/12/21 14:41:00.57 [:01000005] Shakehand ready
+02/12/21 14:41:00.57 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:41:00.58 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:41:00.58 [:01000009] LAUNCH snlua main
+02/12/21 14:41:00.58 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:41:00.58 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:41:00.58 [:0100000b] LAUNCH snlua auth
+02/12/21 14:41:00.58 [:01000009] KILL self
+02/12/21 14:41:00.58 [:01000002] KILL self
+02/12/21 14:41:04.44 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:41:04.44 [:01000003] LAUNCH snlua launcher
+02/12/21 14:41:04.44 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:41:04.44 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:41:04.44 [:01000005] LAUNCH snlua cslave
+02/12/21 14:41:04.44 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:41:04.45 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:41:04.45 [:01000004] connect from 127.0.0.1:60711 4
+02/12/21 14:41:04.45 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:41:04.45 [:01000005] Waiting for 0 harbors
+02/12/21 14:41:04.45 [:01000005] Shakehand ready
+02/12/21 14:41:04.45 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:41:04.45 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:41:04.45 [:01000009] LAUNCH snlua main
+02/12/21 14:41:04.45 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:41:04.45 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:41:04.45 [:0100000b] LAUNCH snlua auth
+02/12/21 14:41:04.45 [:01000009] KILL self
+02/12/21 14:41:04.45 [:01000002] KILL self
+02/12/21 14:41:06.28 [:0100000a] 127.0.0.1:60714 connected
+02/12/21 14:41:44.40 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:41:44.40 [:01000003] LAUNCH snlua launcher
+02/12/21 14:41:44.40 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:41:44.40 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:41:44.40 [:01000005] LAUNCH snlua cslave
+02/12/21 14:41:44.40 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:41:44.40 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:41:44.40 [:01000004] connect from 127.0.0.1:60733 4
+02/12/21 14:41:44.40 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:41:44.40 [:01000005] Waiting for 0 harbors
+02/12/21 14:41:44.40 [:01000005] Shakehand ready
+02/12/21 14:41:44.40 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:41:44.41 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:41:44.41 [:01000009] LAUNCH snlua main
+02/12/21 14:41:44.41 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:41:44.41 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:41:44.41 [:0100000b] LAUNCH snlua auth
+02/12/21 14:41:44.41 [:01000009] KILL self
+02/12/21 14:41:44.41 [:01000002] KILL self
+02/12/21 14:42:00.32 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:42:00.32 [:01000003] LAUNCH snlua launcher
+02/12/21 14:42:00.32 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:42:00.32 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:42:00.32 [:01000005] LAUNCH snlua cslave
+02/12/21 14:42:00.32 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:42:00.32 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:42:00.32 [:01000004] connect from 127.0.0.1:60745 4
+02/12/21 14:42:00.32 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:42:00.32 [:01000005] Waiting for 0 harbors
+02/12/21 14:42:00.32 [:01000005] Shakehand ready
+02/12/21 14:42:00.32 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:42:00.32 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:42:00.32 [:01000009] LAUNCH snlua main
+02/12/21 14:42:00.33 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:42:00.33 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:42:00.33 [:0100000b] LAUNCH snlua auth
+02/12/21 14:42:00.33 [:01000009] KILL self
+02/12/21 14:42:00.33 [:01000002] KILL self
+02/12/21 14:42:15.98 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:42:15.99 [:01000003] LAUNCH snlua launcher
+02/12/21 14:42:15.99 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:42:15.99 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:42:15.99 [:01000005] LAUNCH snlua cslave
+02/12/21 14:42:15.99 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:42:15.99 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:42:15.99 [:01000004] connect from 127.0.0.1:60771 4
+02/12/21 14:42:15.99 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:42:15.99 [:01000005] Waiting for 0 harbors
+02/12/21 14:42:15.99 [:01000005] Shakehand ready
+02/12/21 14:42:15.99 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:42:15.99 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:42:15.99 [:01000009] LAUNCH snlua main
+02/12/21 14:42:15.99 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:42:15.99 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:42:15.99 [:0100000b] LAUNCH snlua auth
+02/12/21 14:42:15.99 [:01000009] KILL self
+02/12/21 14:42:15.99 [:01000002] KILL self
+02/12/21 14:43:14.32 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:43:14.33 [:01000003] LAUNCH snlua launcher
+02/12/21 14:43:14.33 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:43:14.33 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:43:14.33 [:01000005] LAUNCH snlua cslave
+02/12/21 14:43:14.33 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:43:14.33 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:43:14.33 [:01000004] connect from 127.0.0.1:60801 4
+02/12/21 14:43:14.33 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:43:14.33 [:01000005] Waiting for 0 harbors
+02/12/21 14:43:14.33 [:01000005] Shakehand ready
+02/12/21 14:43:14.33 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:43:14.33 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:43:14.34 [:01000009] LAUNCH snlua main
+02/12/21 14:43:14.34 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:43:14.34 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:43:14.34 [:0100000b] LAUNCH snlua auth
+02/12/21 14:43:14.34 [:0100000c] LAUNCH snlua center
+02/12/21 14:43:14.34 [:01000009] KILL self
+02/12/21 14:43:14.34 [:01000002] KILL self
+02/12/21 14:43:23.85 [:01000002] LAUNCH snlua bootstrap
+02/12/21 14:43:23.86 [:01000003] LAUNCH snlua launcher
+02/12/21 14:43:23.86 [:01000004] LAUNCH snlua cmaster
+02/12/21 14:43:23.86 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 14:43:23.86 [:01000005] LAUNCH snlua cslave
+02/12/21 14:43:23.86 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 14:43:23.86 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 14:43:23.86 [:01000004] connect from 127.0.0.1:60810 4
+02/12/21 14:43:23.86 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 14:43:23.86 [:01000005] Waiting for 0 harbors
+02/12/21 14:43:23.86 [:01000005] Shakehand ready
+02/12/21 14:43:23.86 [:01000007] LAUNCH snlua datacenterd
+02/12/21 14:43:23.86 [:01000008] LAUNCH snlua service_mgr
+02/12/21 14:43:23.86 [:01000009] LAUNCH snlua main
+02/12/21 14:43:23.86 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 14:43:23.86 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 14:43:23.87 [:0100000b] LAUNCH snlua center
+02/12/21 14:43:23.87 [:01000009] KILL self
+02/12/21 14:43:23.87 [:01000002] KILL self
+02/12/21 14:43:53.96 [:0100000a] 127.0.0.1:60829 connected
+02/12/21 17:58:32.94 [:01000002] LAUNCH snlua bootstrap
+02/12/21 17:58:32.95 [:01000003] LAUNCH snlua launcher
+02/12/21 17:58:32.95 [:01000004] LAUNCH snlua cmaster
+02/12/21 17:58:32.95 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 17:58:32.95 [:01000005] LAUNCH snlua cslave
+02/12/21 17:58:32.95 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 17:58:32.95 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 17:58:32.95 [:01000004] connect from 127.0.0.1:54226 4
+02/12/21 17:58:32.95 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 17:58:32.95 [:01000005] Waiting for 0 harbors
+02/12/21 17:58:32.95 [:01000005] Shakehand ready
+02/12/21 17:58:32.95 [:01000007] LAUNCH snlua datacenterd
+02/12/21 17:58:32.96 [:01000008] LAUNCH snlua service_mgr
+02/12/21 17:58:32.96 [:01000009] LAUNCH snlua main
+02/12/21 17:58:32.96 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 17:58:32.96 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 17:58:32.96 [:0100000b] LAUNCH snlua center
+02/12/21 17:58:32.96 [:0100000b] TRACE nil
+02/12/21 17:58:32.96 [:0100000b] <TRACE :0100000b-1> 1638439112976889000 trace
+02/12/21 17:58:32.96 [:0100000b] <TRACE :0100000b-1> 1638439112976913000 response
+02/12/21 17:58:32.96 [:0100000b] <TRACE :0100000b-1> 1638439112976915000 end
+02/12/21 17:58:32.96 [:01000009] KILL self
+02/12/21 17:58:32.96 [:01000002] KILL self
+02/12/21 17:59:17.96 [:01000002] LAUNCH snlua bootstrap
+02/12/21 17:59:17.96 [:01000003] LAUNCH snlua launcher
+02/12/21 17:59:17.96 [:01000004] LAUNCH snlua cmaster
+02/12/21 17:59:17.96 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 17:59:17.97 [:01000005] LAUNCH snlua cslave
+02/12/21 17:59:17.97 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 17:59:17.97 [:01000004] connect from 127.0.0.1:54240 4
+02/12/21 17:59:17.97 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 17:59:17.97 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 17:59:17.97 [:01000005] Waiting for 0 harbors
+02/12/21 17:59:17.97 [:01000005] Shakehand ready
+02/12/21 17:59:17.97 [:01000007] LAUNCH snlua datacenterd
+02/12/21 17:59:17.97 [:01000008] LAUNCH snlua service_mgr
+02/12/21 17:59:17.97 [:01000009] LAUNCH snlua main
+02/12/21 17:59:17.97 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 17:59:17.97 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 17:59:17.97 [:0100000b] LAUNCH snlua center
+02/12/21 17:59:17.97 [:0100000b] TRACE nil
+02/12/21 17:59:17.97 [:0100000b] <TRACE :0100000b-1> 1638439157986650000 trace
+02/12/21 17:59:17.97 [:0100000b] <TRACE :0100000b-1> 1638439157987220000 response
+02/12/21 17:59:17.97 [:0100000b] <TRACE :0100000b-1> 1638439157987222000 end
+02/12/21 17:59:17.97 [:01000009] KILL self
+02/12/21 17:59:17.97 [:01000002] KILL self
+02/12/21 17:59:24.91 [:01000002] LAUNCH snlua bootstrap
+02/12/21 17:59:24.92 [:01000003] LAUNCH snlua launcher
+02/12/21 17:59:24.92 [:01000004] LAUNCH snlua cmaster
+02/12/21 17:59:24.92 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 17:59:24.92 [:01000005] LAUNCH snlua cslave
+02/12/21 17:59:24.92 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 17:59:24.92 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 17:59:24.92 [:01000004] connect from 127.0.0.1:54247 4
+02/12/21 17:59:24.92 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 17:59:24.92 [:01000005] Waiting for 0 harbors
+02/12/21 17:59:24.92 [:01000005] Shakehand ready
+02/12/21 17:59:24.92 [:01000007] LAUNCH snlua datacenterd
+02/12/21 17:59:24.92 [:01000008] LAUNCH snlua service_mgr
+02/12/21 17:59:24.92 [:01000009] LAUNCH snlua main
+02/12/21 17:59:24.92 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 17:59:24.92 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 17:59:24.93 [:0100000b] LAUNCH snlua center
+02/12/21 17:59:24.93 [:0100000b] TRACE nil
+02/12/21 17:59:24.93 [:0100000b] <TRACE :0100000b-1> 1638439164929952000 trace
+02/12/21 17:59:24.98 [:0100000b] <TRACE :0100000b-1> 1638439164984380000 response
+02/12/21 17:59:24.98 [:0100000b] <TRACE :0100000b-1> 1638439164984388000 end
+02/12/21 17:59:24.98 [:01000009] KILL self
+02/12/21 17:59:24.98 [:01000002] KILL self
+02/12/21 17:59:35.40 [:01000002] LAUNCH snlua bootstrap
+02/12/21 17:59:35.41 [:01000003] LAUNCH snlua launcher
+02/12/21 17:59:35.41 [:01000004] LAUNCH snlua cmaster
+02/12/21 17:59:35.41 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 17:59:35.41 [:01000005] LAUNCH snlua cslave
+02/12/21 17:59:35.41 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 17:59:35.41 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 17:59:35.41 [:01000004] connect from 127.0.0.1:54250 4
+02/12/21 17:59:35.41 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 17:59:35.41 [:01000005] Waiting for 0 harbors
+02/12/21 17:59:35.41 [:01000005] Shakehand ready
+02/12/21 17:59:35.41 [:01000007] LAUNCH snlua datacenterd
+02/12/21 17:59:35.41 [:01000008] LAUNCH snlua service_mgr
+02/12/21 17:59:35.41 [:01000009] LAUNCH snlua main
+02/12/21 17:59:35.41 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 17:59:35.41 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 17:59:35.41 [:0100000b] LAUNCH snlua center
+02/12/21 17:59:35.42 [:0100000b] TRACE nil
+02/12/21 17:59:35.42 [:0100000b] <TRACE :0100000b-1> 1638439175418717000 trace
+02/12/21 17:59:45.44 [:00000000] A message from [ :01000009 ] to [ :0100000b ] maybe in an endless loop (version = 87)
+02/12/21 17:59:50.46 [:00000000] A message from [ :01000009 ] to [ :0100000b ] maybe in an endless loop (version = 87)
+02/12/21 17:59:53.12 [:01000002] LAUNCH snlua bootstrap
+02/12/21 17:59:53.12 [:01000003] LAUNCH snlua launcher
+02/12/21 17:59:53.12 [:01000004] LAUNCH snlua cmaster
+02/12/21 17:59:53.12 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 17:59:53.12 [:01000005] LAUNCH snlua cslave
+02/12/21 17:59:53.12 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 17:59:53.12 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 17:59:53.12 [:01000004] connect from 127.0.0.1:54267 4
+02/12/21 17:59:53.12 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 17:59:53.12 [:01000005] Waiting for 0 harbors
+02/12/21 17:59:53.12 [:01000005] Shakehand ready
+02/12/21 17:59:53.12 [:01000007] LAUNCH snlua datacenterd
+02/12/21 17:59:53.12 [:01000008] LAUNCH snlua service_mgr
+02/12/21 17:59:53.12 [:01000009] LAUNCH snlua main
+02/12/21 17:59:53.12 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 17:59:53.12 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 17:59:53.13 [:0100000b] LAUNCH snlua center
+02/12/21 17:59:53.13 [:0100000b] TRACE nil
+02/12/21 17:59:53.13 [:0100000b] <TRACE :0100000b-1> 1638439193129995000 trace
+02/12/21 17:59:53.55 [:0100000b] <TRACE :0100000b-1> 1638439193558373000 response
+02/12/21 17:59:53.55 [:0100000b] <TRACE :0100000b-1> 1638439193558381000 end
+02/12/21 17:59:53.55 [:01000009] KILL self
+02/12/21 17:59:53.55 [:01000002] KILL self
+02/12/21 18:00:32.52 [:01000002] LAUNCH snlua bootstrap
+02/12/21 18:00:32.52 [:01000003] LAUNCH snlua launcher
+02/12/21 18:00:32.52 [:01000004] LAUNCH snlua cmaster
+02/12/21 18:00:32.52 [:01000004] master listen socket 0.0.0.0:10100
+02/12/21 18:00:32.52 [:01000005] LAUNCH snlua cslave
+02/12/21 18:00:32.52 [:01000005] slave connect to master 127.0.0.1:10100
+02/12/21 18:00:32.52 [:01000006] LAUNCH harbor 1 16777221
+02/12/21 18:00:32.52 [:01000004] connect from 127.0.0.1:54284 4
+02/12/21 18:00:32.52 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+02/12/21 18:00:32.52 [:01000005] Waiting for 0 harbors
+02/12/21 18:00:32.52 [:01000005] Shakehand ready
+02/12/21 18:00:32.52 [:01000007] LAUNCH snlua datacenterd
+02/12/21 18:00:32.52 [:01000008] LAUNCH snlua service_mgr
+02/12/21 18:00:32.52 [:01000009] LAUNCH snlua main
+02/12/21 18:00:32.52 [:0100000a] LAUNCH snlua debug_console 10199
+02/12/21 18:00:32.53 [:0100000a] Start debug console at 127.0.0.1:10199
+02/12/21 18:00:32.53 [:0100000b] LAUNCH snlua center
+02/12/21 18:00:32.53 [:0100000b] TRACE nil
+02/12/21 18:00:32.53 [:0100000b] <TRACE :0100000b-1> 1638439232530547000 trace
+02/12/21 18:00:36.71 [:0100000b] <TRACE :0100000b-1> 1638439236714731000 response
+02/12/21 18:00:36.71 [:0100000b] <TRACE :0100000b-1> 1638439236714736000 end
+02/12/21 18:00:36.71 [:01000009] KILL self
+02/12/21 18:00:36.71 [:01000002] KILL self
+02/12/21 18:02:29.35 [:0100000a] 127.0.0.1:54379 connected
+02/12/21 21:21:22.21 [:00000000] time diff error: change from 88185265 to 88185272
+03/12/21 01:26:08.17 [:00000000] time diff error: change from 89653855 to 89653861
+03/12/21 06:17:37.86 [:00000000] time diff error: change from 91402817 to 91402824
+03/12/21 07:32:52.94 [:00000000] time diff error: change from 91854319 to 91854325
+03/12/21 08:03:17.05 [:00000000] time diff error: change from 92036725 to 92036730
+03/12/21 11:24:13.86 [:00000000] time diff error: change from 93242401 to 93242406
+03/12/21 12:26:23.64 [:00000000] time diff error: change from 93615374 to 93615379
+03/12/21 14:27:59.80 [:00000000] time diff error: change from 94344984 to 94344990
+03/12/21 14:43:15.93 [:00000000] time diff error: change from 94436592 to 94436597
+03/12/21 15:29:42.72 [:00000000] time diff error: change from 94715264 to 94715271
+03/12/21 16:53:13.42 [:0100000a] 127.0.0.1:54379 disconnect
+03/12/21 17:14:41.51 [:00000000] time diff error: change from 95344848 to 95345143
+03/12/21 20:40:56.74 [:00000000] time diff error: change from 96581892 to 96582371
+03/12/21 22:46:16.51 [:00000000] time diff error: change from 97333859 to 97333867
+04/12/21 00:46:34.29 [:00000000] time diff error: change from 98055443 to 98055639
+04/12/21 02:46:53.01 [:00000000] time diff error: change from 98777112 to 98777315
+04/12/21 04:02:35.41 [:00000000] time diff error: change from 99231344 to 99231352
+04/12/21 05:17:06.03 [:00000000] time diff error: change from 99678401 to 99678406
+04/12/21 08:31:15.71 [:00000000] time diff error: change from 100843357 to 100843369
+05/12/21 08:31:33.13 [:00000000] time diff error: change from 109485006 to 109485099
+05/12/21 08:31:38.23 [:00000000] time diff error: change from 109485355 to 109485516
+06/12/21 07:31:38.31 [:00000000] time diff error: change from 117765247 to 117765363
+06/12/21 18:01:28.16 [:00000000] time diff error: change from 121544184 to 121544232
+06/12/21 18:01:33.92 [:00000000] time diff error: change from 121544633 to 121544760
+07/12/21 09:33:07.20 [:00000000] time diff error: change from 127133929 to 127133961
+08/12/21 08:49:06.75 [:00000000] time diff error: change from 135509826 to 135509884
+09/12/21 04:20:23.65 [:00000000] time diff error: change from 142537467 to 142537516
+10/12/21 03:21:34.05 [:00000000] time diff error: change from 150824450 to 150824507
+10/12/21 03:21:34.18 [:00000000] time diff error: change from 150824462 to 150824463
+11/12/21 03:22:47.46 [:00000000] time diff error: change from 159471733 to 159471790
+11/12/21 03:22:47.63 [:00000000] time diff error: change from 159471749 to 159471750
+11/12/21 12:39:08.21 [:00000000] time diff error: change from 162809797 to 162809807
+11/12/21 14:12:07.38 [:00000000] time diff error: change from 163367683 to 163367714
+11/12/21 14:27:19.82 [:00000000] time diff error: change from 163458921 to 163458927
+11/12/21 15:53:48.37 [:00000000] time diff error: change from 163977771 to 163977776
+11/12/21 22:56:10.01 [:00000000] time diff error: change from 166511930 to 166511935
+12/12/21 15:00:08.89 [:00000000] time diff error: change from 172295812 to 172295818
+12/12/21 15:33:41.66 [:00000000] time diff error: change from 172497082 to 172497089
+12/12/21 16:20:00.78 [:01000002] LAUNCH snlua bootstrap
+12/12/21 16:20:00.79 [:01000003] LAUNCH snlua launcher
+12/12/21 16:20:00.79 [:01000004] LAUNCH snlua cmaster
+12/12/21 16:20:00.79 [:01000004] master listen socket 0.0.0.0:10100
+12/12/21 16:20:35.13 [:01000002] LAUNCH snlua bootstrap
+12/12/21 16:20:35.13 [:01000003] LAUNCH snlua launcher
+12/12/21 16:20:35.13 [:01000004] LAUNCH snlua cmaster
+12/12/21 16:20:35.13 [:01000004] master listen socket 0.0.0.0:10100
+12/12/21 16:20:35.13 [:01000004] init service failed: ../lualib/skynet/socket.lua:407: Listen error
+stack traceback:
+	[C]: in function 'skynet.socketdriver.listen'
+	../lualib/skynet/socket.lua:407: in function 'skynet.socket.listen'
+	../service/cmaster.lua:113: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+12/12/21 16:20:35.13 [:01000004] KILL self
+12/12/21 16:20:37.26 [:01000002] LAUNCH snlua bootstrap
+12/12/21 16:20:37.27 [:01000003] LAUNCH snlua launcher
+12/12/21 16:20:37.27 [:01000004] LAUNCH snlua cmaster
+12/12/21 16:20:37.27 [:01000004] master listen socket 0.0.0.0:10100
+12/12/21 16:20:37.27 [:01000004] init service failed: ../lualib/skynet/socket.lua:407: Listen error
+stack traceback:
+	[C]: in function 'skynet.socketdriver.listen'
+	../lualib/skynet/socket.lua:407: in function 'skynet.socket.listen'
+	../service/cmaster.lua:113: in upvalue 'start'
+	../lualib/skynet.lua:935: in function <../lualib/skynet.lua:933>
+	[C]: in function 'xpcall'
+	../lualib/skynet.lua:937: in function 'skynet.init_service'
+	../lualib/skynet.lua:950: in upvalue 'f'
+	../lualib/skynet.lua:253: in function <../lualib/skynet.lua:252>
+12/12/21 16:21:25.26 [:01000002] LAUNCH snlua bootstrap
+12/12/21 16:21:25.26 [:01000003] LAUNCH snlua launcher
+12/12/21 16:21:25.26 [:01000004] LAUNCH snlua cmaster
+12/12/21 16:21:25.26 [:01000004] master listen socket 0.0.0.0:10100
+12/12/21 16:21:25.26 [:01000005] LAUNCH snlua cslave
+12/12/21 16:21:25.26 [:01000005] slave connect to master 127.0.0.1:10100
+12/12/21 16:21:25.26 [:01000006] LAUNCH harbor 1 16777221
+12/12/21 16:21:25.26 [:01000004] connect from 127.0.0.1:49814 4
+12/12/21 16:21:25.26 [:01000004] Harbor 1 (fd=4) report 127.0.0.1:10101
+12/12/21 16:21:25.26 [:01000005] Waiting for 0 harbors
+12/12/21 16:21:25.26 [:01000005] Shakehand ready
+12/12/21 16:21:25.26 [:01000007] LAUNCH snlua datacenterd
+12/12/21 16:21:25.26 [:01000008] LAUNCH snlua service_mgr
+12/12/21 16:21:25.26 [:01000009] LAUNCH snlua main
+12/12/21 16:21:25.27 [:0100000a] LAUNCH snlua debug_console 10199
+12/12/21 16:21:25.27 [:0100000a] Start debug console at 127.0.0.1:10199
+12/12/21 16:21:25.27 [:0100000b] LAUNCH snlua center
+12/12/21 16:21:25.27 [:0100000b] TRACE nil
+12/12/21 16:21:25.27 [:0100000b] <TRACE :0100000b-1> 1639297285275774000 trace
+12/12/21 16:21:25.27 [:0100000b] <TRACE :0100000b-1> 1639297285275807000 response
+12/12/21 16:21:25.27 [:0100000b] <TRACE :0100000b-1> 1639297285275810000 end
+12/12/21 16:21:25.27 [:01000009] KILL self
+12/12/21 16:21:25.27 [:01000002] KILL self

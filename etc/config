@@ -1,0 +1,45 @@
+root = "../"
+bootstrap = "snlua bootstrap"
+luaservice = root .. "service/?.lua;"
+lualoader = "../lualib/loader.lua"
+lua_path = root .. "lualib/?.lua;" .. root .. "lualib/?/init.lua;" .. root .. "logic/?.lua;" .. root .. "service/?.lua"
+lua_cpath = root .. "luaclib/?.so"
+cpath = root .. "cservice/?.so"
+pbpath = root .. "protocol/"
+sproto_path = root .. "sproto/"
+
+language = "language_cn"
+
+-- 游戏
+gameName = "Game"
+
+-- 端口分段
+serverPort = 101
+
+-- 工作线程，通常不要将它配置超过你实际拥有的 CPU 核心数
+thread = 8
+logger = "../log/log.log"
+harbor = 1
+master = "127.0.0.1:" .. serverPort .. "00"
+address = "127.0.0.1:" .. serverPort .. "0" .. harbor
+standalone = "0.0.0.0:" .. serverPort .. "00"
+start = "main"
+
+-- 调试控制器端口
+debugPort = serverPort .. "99"
+
+-- 网关配置
+tcpSocketPort = serverPort .. "90"
+webSocketPort = serverPort .. "91"
+httpPort = serverPort .. "92"
+
+-- Mongo 配置
+authmod = "scram_sha1"
+mongo_host = "127.0.0.1"
+mongo_port = 27017
+mongo_db_name = gameName .. serverPort
+mongo_username = "admin"
+mongo_password = "123456"
+mongo_log_db_name = gameName .. "Log" .. serverPort
+mongo_log_username = "admin"
+mongo_log_password = "123456"
